@@ -1,0 +1,14 @@
+:root {
+    --negro: #0a0a0a;
+    --blanco: #f5f5f0;
+    --amarillo: #c8f03a;
+    --amarillo-oscuro: #a8cc28;
+    --gris-medio: #1e1e1e;
+}
+
+.font-bebas {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .04em;
+}
+
+/* Cosas globales */

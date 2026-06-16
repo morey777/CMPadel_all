@@ -1,0 +1,87 @@
+/* Contenido */
+.page-wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+}
+
+/* Nombre del monitor */
+.monitor-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: .1rem;
+}
+.monitor-titulo span { color: var(--amarillo-oscuro); }
+
+/* Texto informativo encima del calendario */
+.info-calendario {
+    font-size: .85rem;
+    color: #888;
+    margin: 1.5rem 0 .8rem;
+}
+
+/* FullCalendar overrides */
+.fc { font-family: 'DM Sans', sans-serif; }
+
+.fc .fc-toolbar-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .05em;
+}
+
+.fc .fc-button-primary {
+    background: var(--negro) !important;
+    border-color: var(--negro) !important;
+    border-radius: 6px !important;
+    font-size: .78rem !important;
+}
+
+.fc .fc-day-today { background: rgba(200,240,58,.15) !important; }
+
+.fc .fc-day-today .fc-daygrid-day-number {
+    background: var(--amarillo);
+    border-radius: 6px;
+    padding: 2px 6px;
+    font-weight: 700;
+}
+
+.fc .fc-daygrid-day-number { text-decoration: none; color: #000; font-size: .85rem; }
+.fc .fc-col-header-cell-cushion { font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: #999; text-decoration: none; }
+.fc-theme-standard td, .fc-theme-standard th { border-color: #eee; }
+
+/* Estilo de los eventos en el calendario */
+.fc-event {
+    border-radius: 6px !important;
+    border: none !important;
+    font-size: .75rem !important;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar { display: flex; flex-direction: column; gap: .4rem; width: 180px;}
+
+.sidebar-btn {
+    display: flex; align-items: center; gap: .65rem;
+    padding: .65rem 1rem;
+    border-radius: 10px;
+    font-size: .85rem; font-weight: 600;
+    letter-spacing: .04em; text-transform: uppercase;
+    text-decoration: none;
+    border: 1.5px solid transparent;
+    color: #555;
+    transition: background .15s, color .15s, border-color .15s;
+    cursor: pointer; background: transparent;
+    font-family: 'DM Sans', sans-serif;
+    width: 100%; text-align: left;
+}
+.sidebar-btn:hover { background: #a8a8a83f; color: var(--negro); }
+.sidebar-btn.activo {
+    background: var(--negro);
+    color: #fff;
+    border-color: var(--negro);
+}
+.sidebar-btn.cerrar { color: #c0392b; }
+.sidebar-btn.cerrar:hover { background: rgba(192,57,43,.08); border-color: #c0392b; }
+
+.sidebar-icono { font-size: 1rem; flex-shrink: 0; }

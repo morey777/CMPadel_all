@@ -1,0 +1,40 @@
+/* Contenido */
+.page-wrap { max-width: 1280px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+.btn-volver {
+    display: inline-flex; align-items: center; gap: .4rem;
+    font-size: .8rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
+    color: #888; text-decoration: none; margin-bottom: 1.8rem; transition: color .2s;
+}
+.btn-volver:hover { color: var(--negro); }
+
+.detalle-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.6rem, 6vw, 4.5rem);
+    line-height: .95; letter-spacing: .03em; margin-bottom: 1.2rem;
+}
+
+/* Info */
+.detalle-info { display: flex; flex-direction: column; gap: .55rem; margin-bottom: 2rem; }
+
+.detalle-info p { margin: 0; font-size: .95rem; color: #444; line-height: 1.5; }
+.detalle-info p .lbl {
+    font-weight: 700; color: var(--negro);
+}
+
+/* Botón inscribirse / desinscribirse */
+.btn-inscribir {
+    padding: 13px 28px;
+    border-radius: 10px; border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700; font-size: .95rem;
+    letter-spacing: .07em; text-transform: uppercase;
+    cursor: pointer; transition: background .2s, color .2s;
+}
+.btn-inscribir.inscribir { background: var(--negro); color: #fff; }
+.btn-inscribir.inscribir:hover { background: #333; }
+
+.btn-inscribir.desinscribir { background: #ff1900; color: #fff; border: none; }
+.btn-inscribir.desinscribir:hover { background: #ff1500be; }
+
+.noAllow { background: #ffb3b3; cursor: not-allowed; text-decoration: line-through; }

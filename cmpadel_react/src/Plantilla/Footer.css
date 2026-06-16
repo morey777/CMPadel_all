@@ -1,0 +1,18 @@
+/* Footer */
+footer {
+    background: var(--negro);
+    border-top: 1px solid #1a1a1a;
+}
+
+.pie-link {
+    color: rgba(245, 245, 240, 0.756);
+    font-size: .8rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.pie-link:hover {
+    color: var(--amarillo);
+}

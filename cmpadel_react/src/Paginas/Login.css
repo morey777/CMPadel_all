@@ -1,0 +1,140 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.font-bebas { font-family: 'Bebas Neue', sans-serif; letter-spacing: .04em; }
+
+/* Contenedor centrado */
+.login-wrap {
+    max-width: 600px;
+    margin: 3rem auto;
+}
+
+/* Logo y título */
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.login-header img {
+    margin-bottom: 1rem;
+}
+
+.login-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    text-align: center;
+}
+.login-titulo span { color: var(--amarillo-oscuro); }
+
+/* Formulario */
+.form-label {
+    font-weight: 600;
+    font-size: .85rem;
+    margin-bottom: .3rem;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: .6rem .9rem;
+    font-size: .9rem;
+    font-family: 'DM Sans', sans-serif;
+    transition: border-color .2s;
+}
+.form-control:focus {
+    border-color: var(--amarillo-oscuro);
+    box-shadow: 0 0 0 3px rgba(200,240,58,.2);
+    outline: none;
+}
+
+/* Campo contraseña: position relative para colocar el icono dentro */
+.campo-password {
+    position: relative;
+}
+.campo-password .form-control {
+    padding-right: 2.8rem; /* espacio para que el texto no tape el icono */
+}
+
+/* Botón del ojo dentro del campo */
+.btn-ojo {
+    position: absolute; /* Coloca el elemento en posición libre respecto a su contenedor */
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+
+/* Botón principal */
+.btn-login {
+    width: 100%;
+    background: var(--negro);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    font-weight: 700;
+    font-size: .88rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background .2s;
+    margin-top: .5rem;
+}
+.btn-login:hover { background: #333; }
+
+/* Separador */
+.separador {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    margin: 1.5rem 0;
+    color: #ccc;
+    font-size: .8rem;
+}
+.separador::before,
+.separador::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #e0e0e0;
+}
+
+/* Bloque de registro */
+.registro-bloque {
+    text-align: center;
+}
+
+.registro-bloque p {
+    font-size: .85rem;
+    color: #888;
+    margin-bottom: .5rem;
+}
+
+.btn-registro {
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: var(--negro);
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: .88rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: border-color .2s, background .2s;
+}
+.btn-registro:hover {
+    border-color: var(--amarillo-oscuro);
+    background: rgba(200,240,58,.08);
+    color: var(--negro);
+}

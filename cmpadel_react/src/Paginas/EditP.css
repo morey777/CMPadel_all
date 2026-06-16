@@ -1,0 +1,94 @@
+/* Layout principal */
+.perfil-wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 5rem;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+@media (max-width: 768px) {
+    .perfil-wrap { grid-template-columns: 1fr; gap: 1.5rem; }
+}
+
+/* Sidebar */
+.sidebar { display: flex; flex-direction: column; gap: .4rem; }
+
+.sidebar-btn {
+    display: flex; align-items: center; gap: .65rem;
+    padding: .65rem 1rem;
+    border-radius: 10px;
+    font-size: .85rem; font-weight: 600;
+    letter-spacing: .04em; text-transform: uppercase;
+    text-decoration: none;
+    border: 1.5px solid transparent;
+    color: #555;
+    transition: background .15s, color .15s, border-color .15s;
+    cursor: pointer; background: transparent;
+    font-family: 'DM Sans', sans-serif;
+    width: 100%; text-align: left;
+}
+.sidebar-btn:hover { background: #a8a8a83f; color: var(--negro); }
+.sidebar-btn.activo {
+    background: var(--negro);
+    color: #fff;
+    border-color: var(--negro);
+}
+.sidebar-btn.cerrar { color: #c0392b; }
+.sidebar-btn.cerrar:hover { background: rgba(192,57,43,.08); border-color: #c0392b; }
+
+.sidebar-icono { font-size: 1rem; flex-shrink: 0; }
+
+
+/* Contenido derecho */
+
+.perfil-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    letter-spacing: .04em;
+    margin-bottom: 1.75rem;
+    color: var(--negro);
+}
+
+/* Formulario */
+.form-label {
+    font-weight: 600;
+    font-size: .82rem;
+    letter-spacing: .04em;
+    color: #444;
+    margin-bottom: .3rem;
+    display: block;
+}
+.form-control {
+    border: 1px solid #d0d0c8;
+    border-radius: 8px;
+    padding: .65rem .9rem;
+    font-size: .9rem;
+    font-family: 'DM Sans', sans-serif;
+    transition: border-color .2s, box-shadow .2s;
+    width: 100%;
+    background: #fff;
+}
+.form-control:focus {
+    border-color: var(--amarillo-oscuro);
+    box-shadow: 0 0 0 3px rgba(200,240,58,.2);
+    outline: none;
+}
+
+.btn-guardar {
+    margin-top: 1.75rem;
+    background: var(--negro);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 28px;
+    font-weight: 700;
+    font-size: .88rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background .2s;
+    font-family: 'DM Sans', sans-serif;
+}
+.btn-guardar:hover { background: #333; }

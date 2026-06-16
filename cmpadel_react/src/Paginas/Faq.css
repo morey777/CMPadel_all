@@ -1,0 +1,62 @@
+/* Contenido */
+.page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 5rem;
+}
+
+.page-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.6rem, 6vw, 4.5rem);
+    letter-spacing: .03em;
+    line-height: .95;
+    margin-bottom: .4rem;
+}
+
+/* Despliegue  */
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #e8e8e0;
+    border-radius: 0 !important;
+    background: transparent;
+}
+
+.accordion-item:first-of-type {
+    border-top: 1px solid #e8e8e0;
+}
+
+.accordion-button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: .95rem;
+    color: var(--negro);
+    background: transparent;
+    padding: 1.2rem 0;
+    box-shadow: none !important;
+    gap: 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--negro);
+    background: transparent;
+}
+
+.accordion-body {
+    padding: 0 0 1.4rem 0;
+    font-size: .9rem;
+    color: #555;
+    line-height: 1.75;
+}
+
+.accordion-body ul {
+    padding-left: 1.2rem;
+    margin: .6rem 0 0;
+}
+
+.accordion-body ul li {
+    margin-bottom: .3rem;
+}
+
+.accordion-body strong {
+    color: var(--negro);
+}

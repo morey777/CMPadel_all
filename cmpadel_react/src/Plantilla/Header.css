@@ -1,0 +1,92 @@
+/* :root {
+    --negro: #0a0a0a;
+    --blanco: #f5f5f0;
+    --amarillo: #c8f03a;
+    --amarillo-oscuro: #a8cc28;
+    --gris-medio: #1e1e1e;
+} */
+
+/* Fuente */
+
+/* .font-bebas {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .04em;
+} */
+
+/* No hace falta ponerlos ya que estan en index.css */
+
+
+/* enlaces con subrayado animado */
+.nav-link-cm {
+    position: relative;
+    color: rgba(245, 245, 240, .7) !important;
+    font-size: .875rem;
+    font-weight: 500;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: .5rem .9rem !important;
+    text-decoration: none;
+}
+
+.nav-link-cm::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: .9rem;
+    right: .9rem;
+    height: 2px;
+    background: var(--amarillo);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+
+.nav-link-cm:hover {
+    color: var(--blanco) !important;
+}
+
+.nav-link-cm:hover::after {
+    transform: scaleX(1);
+}
+
+.btn-reservar-nav {
+    background: var(--amarillo) !important;
+    color: var(--negro) !important;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.btn-reservar-nav::after {
+    display: none !important;
+}
+
+.btn-reservar-nav:hover {
+    background: var(--amarillo-oscuro) !important;
+}
+
+/* Icono de perfil en el navbar */
+.btn-perfil {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    /* forma circular */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(245, 245, 240, .2);
+    transition: border-color .2s;
+    text-decoration: none;
+    margin-left: .5rem;
+    flex-shrink: 0;
+}
+
+.btn-perfil:hover {
+    border-color: var(--amarillo);
+}
+
+.btn-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

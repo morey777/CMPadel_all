@@ -1,0 +1,204 @@
+/* Contenido */
+.page-contenido {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* Layout: calendario izquierda, pistas derecha */
+.reserva-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+}
+
+#calendario-div {
+  flex: 1;
+  min-width: 0;
+}
+
+#pistas-div {
+  width: 380px;
+  flex-shrink: 0;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 800px) {
+  .reserva-layout {
+    flex-direction: column;
+  }
+
+  #pistas-div {
+    width: 100%;
+    max-height: none;
+  }
+}
+
+/* Info horario debajo del calendario */
+.horario-info {
+  margin-top: .6rem;
+  font-size: .82rem;
+  color: #666;
+}
+
+/* Cards de pista */
+.card-pista {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+/* Cabecera clicable de cada pista */
+.card-pista-header {
+  padding: 8px 12px;
+  background: #f0f0e8;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: .88rem;
+  user-select: none;
+  /* evita que se seleccione el texto al hacer click */
+}
+
+.card-pista-header:hover {
+  background: #e4e4d8;
+}
+
+.card-pista-header .tags {
+  font-size: .75rem;
+  font-weight: 400;
+  color: #777;
+}
+
+/* Cuerpo de la pista (slots + formulario). Oculto por defecto */
+.card-pista-body {
+  display: none;
+  padding: 8px 12px 10px;
+  border-top: 1px solid #ddd;
+}
+
+.card-pista.abierta .card-pista-body {
+  display: block;
+}
+
+/* Slots de hora */
+.slots-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.slot {
+  padding: 3px 9px;
+  border-radius: 5px;
+  font-size: .78rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.slot.disponible {
+  background: #b3ffb3;
+}
+
+.slot.disponible:hover {
+  background: #90e890;
+}
+
+.slot.ocupado {
+  background: #ffb3b3;
+  cursor: not-allowed;
+  text-decoration: line-through;
+}
+
+/* Formulario de duración */
+.form-reserva {
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+  margin-top: 4px;
+  font-size: .85rem;
+}
+
+.form-reserva input {
+  width: 65px;
+  margin: 0 6px;
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-reserva button {
+  background: var(--negro);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: .82rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form-reserva button:hover {
+  background: #333;
+}
+
+/* FullCalendar: le damos un poco de estilo */
+.fc {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.fc .fc-toolbar-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: .05em;
+}
+
+.fc .fc-button-primary {
+  background: var(--negro) !important;
+  border-color: var(--negro) !important;
+  border-radius: 6px !important;
+  font-size: .78rem !important;
+}
+
+.fc .fc-day-today {
+  background: rgba(200, 255, 0, 0.2) !important;
+}
+
+.fc .fc-day-today .fc-daygrid-day-number {
+  background: var(--amarillo);
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-weight: 700;
+}
+
+.fc .fc-daygrid-day-number {
+  text-decoration: none;
+  color: #000;
+  font-size: .85rem;
+}
+
+.fc .fc-day-past .fc-daygrid-day-number {
+  color: #bbb;
+}
+
+.fc .fc-col-header-cell-cushion {
+  font-size: .72rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #999;
+  text-decoration: none;
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border-color: #eee;
+}
+
+.fc .dia-seleccionada {
+  background: rgba(200, 240, 58, .2) !important;
+}
