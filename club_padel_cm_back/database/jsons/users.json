@@ -1,0 +1,70 @@
+{
+	"usuarios": {
+		"usuario": [
+			{
+				"nombre": "Don",
+				"apellido": "Pez",
+				"dni": "18224566K",
+				"email": "loca@cmpadel.com",
+				"telefono": "687542163",
+				"password": "1234"
+			},
+			{
+				"nombre": "Samuel",
+				"apellido": "de Luque",
+				"dni": "18224566K",
+				"email": "samueld@cmpadel.com",
+				"telefono": "687542163",
+				"password": "1234"
+			},
+			{
+				"nombre": "Luis",
+				"apellido": "García",
+				"dni": "48219376A",
+				"email": "luisg@cmpadel.com",
+				"telefono": "612345789",
+				"password": "luis123"
+			},
+			{
+				"nombre": "Marta",
+				"apellido": "López",
+				"dni": "59384721B",
+				"email": "martal@cmpadel.com",
+				"telefono": "623987451",
+				"password": "marta123"
+			},
+			{
+				"nombre": "Carlos",
+				"apellido": "Pérez",
+				"dni": "71829364C",
+				"email": "carlosp@cmpadel.com",
+				"telefono": "634112908",
+				"password": "carlos123"
+			},
+			{
+				"nombre": "Ana",
+				"apellido": "Ruiz",
+				"dni": "65918273D",
+				"email": "anar@cmpadel.com",
+				"telefono": "645778231",
+				"password": "ana123"
+			},
+			{
+				"nombre": "Javier",
+				"apellido": "Sánchez",
+				"dni": "48201937E",
+				"email": "javiers@cmpadel.com",
+				"telefono": "656901234",
+				"password": "javier123"
+			},
+			{
+				"nombre": "Lucía",
+				"apellido": "Moreno",
+				"dni": "73019284F",
+				"email": "luciam@cmpadel.com",
+				"telefono": "667345890",
+				"password": "lucia123"
+			}
+		]
+	}
+}

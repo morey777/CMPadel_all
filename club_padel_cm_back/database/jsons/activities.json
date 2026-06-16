@@ -1,0 +1,179 @@
+[
+	{
+		"codigo": "ACT-1",
+		"nombre": "Volea",
+		"descripcion": "Se utiliza cerca de la red para atacar, presionar al rival, ganar posición y terminar puntos. Fácil de aprender, no conviene intentar desde posiciones lejos de la red.",
+		"maxPersonas": 4,
+		"duracion": 1,
+		"precio": 7.00,
+		"trainings": [
+			{ "dia": "2026-04-14", "hora": "10:00:00", "monitor": "73019284F", "numPista": 3 },
+			{ "dia": "2026-05-04", "hora": "09:00:00", "monitor": "48201937E", "numPista": 13 },
+			{ "dia": "2026-05-05", "hora": "18:00:00", "monitor": "65918273D", "numPista": 1 },
+			{ "dia": "2026-06-06", "hora": "12:00:00", "monitor": "71829364C", "numPista": 6 },
+			{ "dia": "2026-06-07", "hora": "20:00:00", "monitor": "59384721B", "numPista": 2 },
+			{ "dia": "2026-06-08", "hora": "17:00:00", "monitor": "18224566K", "numPista": 4 }
+		]
+	},
+	{
+		"codigo": "ACT-2",
+		"nombre": "Bandeja",
+		"descripcion": "Golpe defensivo-ofensivo que se ejecuta desde la media altura, normalmente tras un globo del rival. Sirve para controlar la red y preparar un ataque sin arriesgarse a perder la posición.",
+		"maxPersonas": 4,
+		"duracion": 1,
+		"precio": 6.00,
+		"trainings": [
+			{ "dia": "2026-04-16", "hora": "11:00:00", "monitor": "48219376A", "numPista": 7 },
+			{ "dia": "2026-05-11", "hora": "08:00:00", "monitor": "73019284F", "numPista": 3 },
+			{ "dia": "2026-05-12", "hora": "19:00:00", "monitor": "48201937E", "numPista": 10 },
+			{ "dia": "2026-05-13", "hora": "10:00:00", "monitor": "65918273D", "numPista": 1 },
+			{ "dia": "2026-06-14", "hora": "18:00:00", "monitor": "71829364C", "numPista": 12 },
+			{ "dia": "2026-06-15", "hora": "20:00:00", "monitor": "59384721B", "numPista": 2 }
+		]
+	},
+	{
+		"codigo": "ACT-3",
+		"nombre": "Globo",
+		"descripcion": "Técnica que consiste en elevar la pelota por encima del rival. Se usa para ganar tiempo cuando estás en apuros o para sacar al rival de la red, generando oportunidades de contraataque.",
+		"maxPersonas": 4,
+		"duracion": 1,
+		"precio": 6.50,
+		"trainings": [
+			{ "dia": "2026-04-18", "hora": "09:00:00", "monitor": "18224566K", "numPista": 5 },
+			{ "dia": "2026-05-18", "hora": "12:00:00", "monitor": "48219376A", "numPista": 7 },
+			{ "dia": "2026-05-19", "hora": "17:00:00", "monitor": "73019284F", "numPista": 3 },
+			{ "dia": "2026-06-20", "hora": "09:00:00", "monitor": "48201937E", "numPista": 10 },
+			{ "dia": "2026-06-21", "hora": "19:00:00", "monitor": "65918273D", "numPista": 1 },
+			{ "dia": "2026-06-22", "hora": "18:00:00", "monitor": "71829364C", "numPista": 12 }
+		]
+	},
+	{
+		"codigo": "ACT-4",
+		"nombre": "Víbora",
+		"descripcion": "Golpe agresivo similar a la bandeja pero con más efecto y velocidad, usado para atacar cuando la pelota está bien colocada y presionar al rival en la red.",
+		"maxPersonas": 4,
+		"duracion": 1,
+		"precio": 7.50,
+		"trainings": [
+			{ "dia": "2026-04-20", "hora": "10:00:00", "monitor": "59384721B", "numPista": 2 },
+			{ "dia": "2026-05-23", "hora": "11:00:00", "monitor": "18224566K", "numPista": 14 },
+			{ "dia": "2026-05-25", "hora": "08:00:00", "monitor": "48219376A", "numPista": 7 },
+			{ "dia": "2026-05-26", "hora": "20:00:00", "monitor": "73019284F", "numPista": 3 },
+			{ "dia": "2026-06-27", "hora": "17:00:00", "monitor": "48201937E", "numPista": 10 },
+			{ "dia": "2026-06-28", "hora": "09:00:00", "monitor": "65918273D", "numPista": 1 }
+		]
+	},
+	{
+		"codigo": "ACT-5",
+		"nombre": "Situación de partido",
+		"descripcion": "Clase práctica donde se simulan diferentes escenarios de juego para aprender qué hacer en cada momento: cuándo atacar, cuándo defender y cómo tomar decisiones rápidas bajo presión.",
+		"maxPersonas": 5,
+		"duracion": 1,
+		"precio": 7.60,
+		"trainings": [
+			{ "dia": "2026-04-22", "hora": "18:00:00", "monitor": "71829364C", "numPista": 6 },
+			{ "dia": "2026-05-29", "hora": "12:00:00", "monitor": "59384721B", "numPista": 2 },
+			{ "dia": "2026-05-30", "hora": "10:00:00", "monitor": "18224566K", "numPista": 14 },
+			{ "dia": "2026-06-04", "hora": "19:00:00", "monitor": "48219376A", "numPista": 7 },
+			{ "dia": "2026-06-05", "hora": "08:00:00", "monitor": "73019284F", "numPista": 3 },
+			{ "dia": "2026-06-06", "hora": "18:00:00", "monitor": "48201937E", "numPista": 10 }
+		]
+	},
+	{
+		"codigo": "ACT-6",
+		"nombre": "Saque x4",
+		"descripcion": "Saque que rebota en la pista rival y supera los 4 metros. Fácil de aprender, sirve para terminar el punto. No conviene usarlo en situaciones muy ajustadas donde es difícil controlar la pelota.",
+		"maxPersonas": 4,
+		"duracion": 1,
+		"precio": 7.20,
+		"trainings": [
+			{ "dia": "2026-04-24", "hora": "09:00:00", "monitor": "65918273D", "numPista": 1 },
+			{ "dia": "2026-05-07", "hora": "20:00:00", "monitor": "71829364C", "numPista": 6 },
+			{ "dia": "2026-05-08", "hora": "17:00:00", "monitor": "59384721B", "numPista": 13 },
+			{ "dia": "2026-05-11", "hora": "12:00:00", "monitor": "18224566K", "numPista": 4 },
+			{ "dia": "2026-06-12", "hora": "09:00:00", "monitor": "48219376A", "numPista": 7 },
+			{ "dia": "2026-06-13", "hora": "19:00:00", "monitor": "73019284F", "numPista": 3 }
+		]
+	},
+	{
+		"codigo": "ACT-7",
+		"nombre": "Contra pared",
+		"descripcion": "Golpe que aprovecha la pared para devolver la pelota. Se utiliza para mantener el punto en juego y sorprender al rival. Fácil de aprender, ideal cuando la pelota viene rápida o difícil, no conviene en golpes cortos cerca de la red.",
+		"maxPersonas": 4,
+		"duracion": 1,
+		"precio": 6.00,
+		"trainings": [
+			{ "dia": "2026-04-26", "hora": "11:00:00", "monitor": "48201937E", "numPista": 10 },
+			{ "dia": "2026-05-14", "hora": "08:00:00", "monitor": "65918273D", "numPista": 1 },
+			{ "dia": "2026-05-15", "hora": "18:00:00", "monitor": "71829364C", "numPista": 13 },
+			{ "dia": "2026-05-18", "hora": "20:00:00", "monitor": "59384721B", "numPista": 2 },
+			{ "dia": "2026-06-19", "hora": "17:00:00", "monitor": "18224566K", "numPista": 13 },
+			{ "dia": "2026-06-20", "hora": "10:00:00", "monitor": "48219376A", "numPista": 7 }
+		]
+	},
+	{
+		"codigo": "ACT-8",
+		"nombre": "Dejada",
+		"descripcion": "Golpe suave que busca que la pelota caiga cerca de la red. Se usa para sorprender al rival y ganar puntos cuando está lejos de la red. Fácil de aprender, no conviene usar si el rival está cerca y puede reaccionar rápido.",
+		"maxPersonas": 4,
+		"duracion": 1,
+		"precio": 6.20,
+		"trainings": [
+			{ "dia": "2026-04-28", "hora": "18:00:00", "monitor": "73019284F", "numPista": 3 },
+			{ "dia": "2026-05-21", "hora": "09:00:00", "monitor": "48201937E", "numPista": 10 },
+			{ "dia": "2026-05-22", "hora": "19:00:00", "monitor": "65918273D", "numPista": 1 },
+			{ "dia": "2026-05-23", "hora": "11:00:00", "monitor": "71829364C", "numPista": 11 },
+			{ "dia": "2026-06-25", "hora": "08:00:00", "monitor": "59384721B", "numPista": 2 },
+			{ "dia": "2026-06-26", "hora": "20:00:00", "monitor": "18224566K", "numPista": 4 },
+			{ "dia": "2026-07-08", "hora": "11:00:00", "monitor": "48201937E", "numPista": 2 }
+		]
+	},
+	{
+		"codigo": "ACT-9",
+		"nombre": "Efecto cortado",
+		"descripcion": "Golpe con efecto que hace que la pelota baje rápido tras el bote. Se utiliza para dificultar el ataque del rival y ganar control del punto. No conviene usarlo en golpes muy largos o cuando no se domina el efecto.",
+		"maxPersonas": 4,
+		"duracion": 1,
+		"precio": 6.80,
+		"trainings": [
+			{ "dia": "2026-04-30", "hora": "10:00:00", "monitor": "48219376A", "numPista": 7 },
+			{ "dia": "2026-07-01", "hora": "11:00:00", "monitor": "48201937E", "numPista": 7 }
+		]
+	},
+	{
+		"codigo": "ACT-10",
+		"nombre": "Efecto liftado",
+		"descripcion": "Golpe con efecto que eleva la pelota y le da velocidad tras el bote. Sirve para presionar al rival y generar oportunidades de ataque. Fácil de aprender, no conviene usarlo en espacios reducidos o con poca anticipación.",
+		"maxPersonas": 5,
+		"duracion": 1,
+		"precio": 5.50,
+		"trainings": [
+			{ "dia": "2026-06-27", "hora": "10:00:00", "monitor": "48219376A", "numPista": 6 },
+			{ "dia": "2026-06-28", "hora": "17:00:00", "monitor": "65918273D", "numPista": 12 },
+			{ "dia": "2026-06-29", "hora": "09:00:00", "monitor": "71829364C", "numPista": 3 },
+			{ "dia": "2026-05-30", "hora": "11:00:00", "monitor": "59384721B", "numPista": 5 },
+			{ "dia": "2026-05-24", "hora": "18:00:00", "monitor": "18224566K", "numPista": 7 },
+			{ "dia": "2026-05-23", "hora": "20:00:00", "monitor": "73019284F", "numPista": 10 },
+			{ "dia": "2026-04-29", "hora": "10:00:00", "monitor": "48201937E", "numPista": 4 },
+			{ "dia": "2026-04-27", "hora": "12:00:00", "monitor": "65918273D", "numPista": 6 },
+			{ "dia": "2026-07-02", "hora": "14:00:00", "monitor": "48201937E", "numPista": 10 }
+		]
+	},
+	{
+		"codigo": "ACT-11",
+		"nombre": "La dormilona",
+		"descripcion": "Golpe muy suave que deja la pelota sin bote y pegada a la red, a diferencia de la dejada que tiene más recorrido. Se usa para sorprender. Difícil de ejecutar, no conviene si no se tiene buen control o el rival está cerca.",
+		"maxPersonas": 4,
+		"duracion": 1,
+		"precio": 7.00,
+		"trainings": [
+			{ "dia": "2026-06-26", "hora": "08:00:00", "monitor": "71829364C", "numPista": 2 },
+			{ "dia": "2026-05-25", "hora": "19:00:00", "monitor": "59384721B", "numPista": 11 },
+			{ "dia": "2026-05-22", "hora": "17:00:00", "monitor": "18224566K", "numPista": 1 },
+			{ "dia": "2026-05-21", "hora": "12:00:00", "monitor": "48219376A", "numPista": 14 },
+			{ "dia": "2026-04-26", "hora": "09:00:00", "monitor": "73019284F", "numPista": 3 },
+			{ "dia": "2026-04-25", "hora": "11:00:00", "monitor": "48201937E", "numPista": 7 },
+			{ "dia": "2026-07-03", "hora": "11:00:00", "monitor": "48201937E", "numPista": 7 }
+		]
+	}
+]
